@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+h1 {color:#FDE8CD;
+    margin: 2em;
+    font-size: 1.5em;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #433520;
+    text-align: center;
+    color: white;
+}
+header{
+    display: inline;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav a:hover {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+nav {
+    background-color: #025955;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+h2 {
+    color: #FDE8CD;
+}
+h3 {
+    background-color: #FDE8CD;
+    padding: 20px 15px;
+}
+h4 {
+    color: #FDE8CD;
+}
+li {
+    color: #FDE8CD;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #433520;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    padding: 10px 15px 10px 15px;
+    font-size: 1em;
+    line-height: 1em;
+    text-indent: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FDE8CD;
+}
+#content {
+    float: left;
+    width: 75%;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+main {
+    padding: 10px;
+    overflow: auto;
+}
+* {
+    box-sizing: border-box;
+}
+.profile header {
+    text-align: center;
+}
+.profile img{
+    max-height: 200px;
+}
+.featured-image{
+    max-height: 300px;
+}
+ 
+footer{
+    padding: 10px;
+    background-color: #025955;
+    color: #FDE8CD;
+    text-align: center;
+}
+.table {
+    text-align: left;
+    color: #FDE8CD;
+}
+.shadowbox {
+    box-shadow: 4px 4px 3px #444;
+    padding: 16px 24px;
+    color: #FDE8CD;
+    background-color: #025955;
+    max-width: 800px;
+    border: 2px dashed #FDE8CD;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1000px){
+    #content, aside{
+            width: 100%;
+            padding: 0;
+        }
+    }
+/* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+a:link {
+    color: #00917c;;
+ }  
+ /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+ a:visited {
+    color:whitesmoke;
+ }
+ /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+ a:hover {
+    color: #025955;
+ }
+ /* rule akan diterapkan pada sebuah tautan ketika ditekan */
+ a:active {
+    color:#00917c;
+ }
